@@ -1,0 +1,55 @@
+INSERT INTO entreprise (nom_entreprises) VALUES
+('Event factelevesory'), 
+('Hoali'), 
+('Labocea'), 
+('Credit Agricole'), 
+('Orange'), 
+('Voxygen'), 
+('Cogédis'), 
+('SF2I'), 
+('N7'), 
+('Eco compteur'), 
+('Jacquie Michel'), 
+('Nasa'); 
+
+INSERT INTO eleves (prenom, nom, mail, pseudo, anciennete, id_entreprise) VALUES 
+('Ellande','Goyty', 'egoyty@gmail.com',  'ellande', 1, 1),
+('Amaury','Le chaffotec', 'amaury.le.chaffotec2@gmail.com',   'AmauryLC', 1, 2),
+('Claire','Guillain', 'claire.guillain.cg@gmail.com',  'Claire G', 0, 3),
+('Julien','Courteau', 'juliencourteau22@gmail.com',  'juliencrt', 0, 4),
+('Christel','Brun', 'brunday@gmail.com',  'Xel', 1, 5),
+('Aurelie','Raoul','raoulaur@gmail.com', 'Aurélie', 1, 6),
+('Yohann','Fin', 'yohann.fin13@gmail.com',  'Yohann', 4, 4),
+('Morgan','Salaun', 'mowglyzer@gmail.com',  'Morgan S', 2, 4),
+('Jeremy','Le bricquer', 'jeremylebricquer@gmail.com',  'Jeremy', 3, 5),
+('Anatole','pasquiers', 'anatole.pasquiers1@gmail.com',  'Pasquiers Anatole', 0, 4),
+('Thomas','Joncourt', 'thomas.joncourt.pro1@gmail.com',  'Thomas J', 0, 8),
+('Damien','Boury', 'bourydamien1@gmail.com',   'Boury Damien', 0, 4),
+('Mehdi','Adel', 'zeadel.mehdi@gmail.com',  'N7Mehdi', 2, 9),
+('Paul','Le coz', 'plecoz.pro@gmail.com ',  'PaulLC', 0, 10),
+('Guillaume','Mauriaucourt', 'proracevdt@gmail.com',  'Tyrax#8890', 0, 11),
+('Erwan','Drouillard', 'erwan.drouillard@gmail.com ',   'Erwan22', 0, 5),
+('Vincent','Prévot', 'vincentprv22@gmail.com', 'Vincent', 0, 12),
+('Halimata', 'Barré', 'halimataba54@gmail.com', 'halimata', 1, 5);
+
+INSERT INTO expertise (documentation_skill, python_skill, sql_skill, modelisation_skill) VALUES
+(NULL, NULL, NULL, NULL),
+(NULL, NULL, NULL, NULL),
+(2, 1, 2, 2),
+(2, 1, 1, 1),
+(3, 2, 1, 1),
+(2, 2, 2, 2),
+(3, 2, 3, 2),
+(2, 1, 2, 1),
+(3, 2, 2, 2),
+(3, 2, 1, 1),
+(3, 2, 1, 1),
+(NULL, NULL, NULL, NULL),
+(3, 2, 2, 1),
+(2, 1, 2, 1),
+(2, 1, 2, 1),
+(2, 2, 1, 1),
+(3, 2, 2, 1),
+(2, 2, 2, 1);
+
+
